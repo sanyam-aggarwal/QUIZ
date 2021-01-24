@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin:0;
@@ -20,7 +21,7 @@ font-family: 'Courier New', Courier, monospace
 
 .welcome_form input,
 .welcome_form button{
-    display:block;
+    display: block;
     width: 100%;
 }
 .welcome_form input{
@@ -33,9 +34,8 @@ font-family: 'Courier New', Courier, monospace
     border-bottom: 2px solid #fff;
 }
 .welcome_form button{
-    font-size: 22px;
+    font-size: 50px;
     padding: 20px 0;
-    border: none;
     background-color: #fff;
     color: #341f97;
     border-radius: 100px;
@@ -44,7 +44,7 @@ font-family: 'Courier New', Courier, monospace
 }
 .welcome_form button:hover{
     transform: translateY(-5px);
-    cursor: pointer;
+    cursor:pointer;
 }
 .welcome_form input:focus,
 .welcome_form button:focus{
