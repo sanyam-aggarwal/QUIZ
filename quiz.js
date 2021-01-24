@@ -198,7 +198,7 @@ function queSub(){
 function show(count){
     let question=document.getElementById("questions");
     //question.innerHTML="<h2>"+questions[count].question+"</h2>";
-    question.innerHTML=`<h2>${questions[count].question}</h2>
+    question.innerHTML=`  <h2>${questions[count].question}</h2>
     <ul class="option_group">
                         <li class="option"><input type="radio" name="op" value="${questions[count].options[0]}">${questions[count].options[0]}</li>
                         <li class="option"><input type="radio" name="op" value="${questions[count].options[1]}">${questions[count].options[1]}</li>
